@@ -1,8 +1,3 @@
-<!-- Banner -->
-<p align="center">
-  <img src="banner.png" alt="Hariharan Murali Banner" />
-</p>
-
 <!-- Typing Intro -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=800&center=true&vCenter=true&random=false&width=900&lines=Hi%2C+I'm+Hariharan+Murali;Aspiring+Full+Stack+Developer;I+build+clean%2C+performant+web+apps;Always+learning+and+shipping+code" alt="Typing SVG" />
