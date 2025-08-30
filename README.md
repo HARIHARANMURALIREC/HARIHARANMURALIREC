@@ -1,6 +1,7 @@
+
 <!-- Typing Intro -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=800&center=true&vCenter=true&random=false&width=900&lines=Hi%2C+I'm+Hariharan+Murali;Aspiring+Full+Stack+Developer;I+build+clean%2C+performant+web+apps;Always+learning+and+shipping+code" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&pause=800&center=true&vCenter=true&width=1000&lines=Hi%2C+I'm+Hariharan+Murali;Aspiring+Full+Stack+Developer;B.Tech+Information+Technology;Hackathon+Winner+%F0%9F%8F%86;Always+Learning+%F0%9F%92%A1;Building+Real+World+Projects+%F0%9F%9A%80" alt="Typing SVG" />
 </p>
 
 <!-- Quick Badges -->
@@ -12,16 +13,45 @@
 
 ---
 
-### 🧭 About Me
-- Skilled in **React, React Native, Angular, .NET, Express.js, Python, Java, C, C++, SQL, MongoDB, PostgreSQL, UI/UX**
-- Hackathon **Winner** • **Guest Speaker** (Geekify 2K25)  
-- I love building **real products** for **real users**.
+## 🧭 About Me
+<p align="right">
+  <img align="right" alt="Coding" width="350" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+</p>
+
+- Skilled in **React, React Native, Angular, .NET, Express.js, Python, Java, C, C++, SQL, MongoDB, PostgreSQL, UI/UX**  
+- Hands-on experience in **full-stack development, IoT, and automation projects**  
+- 🏆 Multiple Hackathon **Winner** + **Guest Speaker** at Geekify 2K25  
+- 🌱 Always exploring new technologies to **Code. Build. Deliver.**
 
 ---
 
-### 🛠️ Tech Stack
+## 🏗️ Highlight Projects
+- **Employee Management System** – .NET Core + Angular 19  
+- **Courier Management System** – Python + MySQL + Web stack  
+- **Xpense App** – Payment, Tracking & Planning (Python backend)  
+- **E-Commerce Website** – HTML, CSS, JS, Python + MySQL  
+- **FarmEasy** – React + Python (for Dean & Professor @ REC)  
+- **REC Transport** – React Native + Python + MongoDB (for Rajalakshmi Engineering College)  
+- **Economic Tachometer** – ESP32 + IR Sensor + C  
+
+➡️ Explore more: [Repositories](https://github.com/HARIHARANMURALIREC?tab=repositories)
+
+---
+
+## 🏆 Achievements & Experience
+- 🥇 **FLARENDO’24** – Winner @ Sairam Engineering College  
+- 🥇 **INNOVISION’24** – Winner @ Rajalakshmi Engineering College  
+- 🥈 **Innovarium Hackathon’24** – Runner-up @ Sri Krishna College  
+- 🥇 **Design Arena’24** – Winner @ Rajalakshmi Engineering College  
+- 🎤 **Guest Speaker** – Geekify 2K25  
+- Internships: **Brakes India (TVS)**, **OneYes Info Tech**, **Tunga Aerospace**, **TEL Turbo Energy (Jun–Jul 2025)**  
+
+---
+
+## 🛠️ Tech Stack
 <p align="center">
   <img height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
+  <img height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"/>
   <img height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"/>
   <img height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"/>
   <img height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"/>
@@ -37,60 +67,39 @@
 
 ---
 
-### 🏗️ Highlight Projects
-- **Employee Management System** – .NET Core + Angular 19  
-- **Courier Management System** – Python + MySQL + Web stack  
-- **Xpense App** – Payment, Tracking & Planning (Python backend)  
-- **E-Commerce Website** – HTML, CSS, JS, Python + MySQL  
-- **FarmEasy** – React + Python (for Dean & Professor @ REC)  
-- **REC Transport** – React Native + Python + MongoDB (for Rajalakshmi Engineering College)  
-- **Economic Tachometer** – ESP32 + IR Sensor + C  
-
-➡️ See more: [Repositories](https://github.com/HARIHARANMURALIREC?tab=repositories)
-
----
-
-### 🏆 Achievements & Experience
-- 🥇 **FLARENDO’24** – Sairam Engineering College  
-- 🥇 **INNOVISION’24** – Rajalakshmi Engineering College  
-- 🥈 **Innovarium Hackathon’24** – Sri Krishna College  
-- 🥇 **Design Arena’24** – Rajalakshmi Engineering College  
-- 🎤 Guest Speaker – **Geekify 2K25**  
-- Internships: **Brakes India (TVS)**, **OneYes Info Tech**, **Tunga Aerospace**, **TEL Turbo Energy (Jun–Jul 2025)**
-
----
-
-### 📊 Analytics (Live)
+## 📊 GitHub Analytics
 <p align="center">
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=HARIHARANMURALIREC&show_icons=true&theme=radical" />
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HARIHARANMURALIREC&layout=compact&theme=radical" />
 </p>
+
 <p align="center">
   <img height="160" src="https://github-readme-streak-stats.herokuapp.com?user=HARIHARANMURALIREC&theme=radical"/>
 </p>
+
+---
+
+## 🎉 Fun Extras
+
+<!-- Typing animation -->
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=HARIHARANMURALIREC&theme=dracula&margin-w=8&row=1" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&width=800&lines=Eat+🍕+Code+💻+Repeat+🔁;Learning+Never+Stops+🚀;Code.+Build.+Deliver." alt="Typing Animation" />
 </p>
 
-<!-- Activity Graph -->
+<!-- Trophies -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=HARIHARANMURALIREC&theme=react-dark" />
+  <img src="https://github-profile-trophy.vercel.app/?username=HARIHARANMURALIREC&theme=gruvbox&no-frame=true&row=1&column=6" />
+</p>
+
+<!-- Jokes -->
+<p align="center">
+  <img src="https://readme-jokes.vercel.app/api?hideBorder&theme=radical" alt="Joke Card"/>
 </p>
 
 ---
 
-### 🐍 Contribution Grid Animation
-<p align="center">
-  <img src="https://raw.githubusercontent.com/HARIHARANMURALIREC/HARIHARANMURALIREC/output/github-contribution-grid-snake.svg" alt="snake animation"/>
-</p>
+## 📫 Connect
+🌐 [LinkedIn](https://www.linkedin.com/in/hariharan-murali-0a8976327/)  
+📧 [hariharanmurali81@gmail.com](mailto:hariharanmurali81@gmail.com)  
 
 ---
-
-### 📫 Connect
-**LinkedIn:** <a href="https://www.linkedin.com/in/hariharan-murali-0a8976327/">Hariharan Murali</a>  
-**Email:** <a href="mailto:hariharanmurali81@gmail.com">hariharanmurali81@gmail.com</a>
-
-<!-- Fun footer -->
-<p align="center">
-  <img src="https://readme-jokes.vercel.app/api?hideBorder&bgColor=%2314141a" alt="Random Dev Joke"/>
-</p>
