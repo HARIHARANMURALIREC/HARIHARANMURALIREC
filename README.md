@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=6,11,20&text=HARIHARAN%20MURALI&fontColor=ffffff&fontSize=48&fontAlignY=38&desc=Full%20Stack%20Developer%20%26%20AI%20Engineer&descAlignY=58&descSize=20&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;height=220&amp;color=gradient&amp;customColorList=6,11,20&amp;text=HARIHARAN%20MURALI&amp;fontColor=ffffff&amp;fontSize=48&amp;fontAlignY=38&amp;desc=Full%20Stack%20Developer%20%26%20AI%20Engineer&amp;descAlignY=58&amp;descSize=20&amp;animation=fadeIn" width="100%"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=780&lines=Shipping+production-facing+AI+%2B+full-stack+products;Building+a+64-bit+OS+from+scratch+%E2%80%94+kernel+to+GUI;RAG+%2F+LLM+applications+%2C+Computer+Vision+%2C+LoRA+fine-tuning;Chennai%2C+India+%F0%9F%87%AE%F0%9F%87%B3+%7C+Open+to+GenAI+%2F+LLM+internships" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=24&amp;duration=2800&amp;pause=900&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=780&amp;lines=Shipping+production-facing+AI+%2B+full-stack+products;Building+a+64-bit+OS+from+scratch+%E2%80%94+kernel+to+GUI;RAG+%2F+LLM+applications+%2C+Computer+Vision+%2C+LoRA+fine-tuning;Chennai%2C+India+%F0%9F%87%AE%F0%9F%87%B3+%7C+Open+to+GenAI+%2F+LLM+internships" alt="Typing SVG" />
 
 <br/><br/>
 
@@ -36,7 +36,7 @@ I build things end-to-end — from a Rust-powered remote desktop app to a **hand
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,ts,js,nodejs,express,python,fastapi,dotnet,cpp,c,flutter,reactnative,postgres,mysql,mongodb,supabase,git,github,figma&theme=dark&perline=10" />
+<img src="https://skillicons.dev/icons?i=react,ts,js,nodejs,express,python,fastapi,dotnet,cpp,c,flutter,reactnative,postgres,mysql,mongodb,supabase,git,github,figma&amp;theme=dark&amp;perline=10" />
 
 <br/><br/>
 
@@ -139,12 +139,12 @@ Built during an aerospace internship: a GStreamer streaming pipeline from a VTOL
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=HARIHARANMURALIREC&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38BDF8&icon_color=38BDF8" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HARIHARANMURALIREC&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38BDF8" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=HARIHARANMURALIREC&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=38BDF8&amp;icon_color=38BDF8" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HARIHARANMURALIREC&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=38BDF8" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=HARIHARANMURALIREC&theme=tokyonight&hide_border=true&background=0d1117&ring=38BDF8&fire=38BDF8" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=HARIHARANMURALIREC&amp;theme=tokyonight&amp;hide_border=true&amp;background=0d1117&amp;ring=38BDF8&amp;fire=38BDF8" />
 
 </div>
 
@@ -159,6 +159,6 @@ Built during an aerospace internship: a GStreamer streaming pipeline from a VTOL
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=6,11,20&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;height=100&amp;color=gradient&amp;customColorList=6,11,20&amp;section=footer" width="100%"/>
 
 </div>
