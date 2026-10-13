@@ -1,22 +1,26 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;height=220&amp;color=gradient&amp;customColorList=6,11,20&amp;text=HARIHARAN%20MURALI&amp;fontColor=ffffff&amp;fontSize=48&amp;fontAlignY=38&amp;desc=Full%20Stack%20Developer%20%26%20AI%20Engineer&amp;descAlignY=58&amp;descSize=20&amp;animation=fadeIn" width="100%"/>
+<img src="assets/banner.svg" width="100%" alt="Hariharan Murali, Full Stack Developer and AI Engineer"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=24&amp;duration=2800&amp;pause=900&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=780&amp;lines=Shipping+production-facing+AI+%2B+full-stack+products;Building+a+64-bit+OS+from+scratch+%E2%80%94+kernel+to+GUI;RAG+%2F+LLM+applications+%2C+Computer+Vision+%2C+LoRA+fine-tuning;Chennai%2C+India+%F0%9F%87%AE%F0%9F%87%B3+%7C+Open+to+GenAI+%2F+LLM+internships" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=19F0FF&center=true&vCenter=true&width=780&lines=Shipping+production-facing+AI+%2B+full-stack+products;Building+a+64-bit+OS+from+scratch+%E2%80%94+kernel+to+GUI;RAG+%2F+LLM+applications+%2C+Computer+Vision+%2C+LoRA+fine-tuning;Chennai%2C+India+%F0%9F%87%AE%F0%9F%87%B3+%7C+Open+to+GenAI+%2F+LLM+internships" alt="Typing SVG" />
 
 <br/><br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-hariharanmurali.com-0f172a?style=for-the-badge&logo=safari&logoColor=38BDF8)](https://hariharanmurali.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0f172a?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](#)
-[![Email](https://img.shields.io/badge/Email-Reach%20Out-0f172a?style=for-the-badge&logo=gmail&logoColor=EA4335)](#)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-hariharanmurali.com-0b0914?style=for-the-badge&labelColor=19f0ff&color=0b0914&logo=safari&logoColor=19f0ff)](https://hariharanmurali.com)
+[![GitHub](https://img.shields.io/badge/GITHUB-HARIHARANMURALIREC-0b0914?style=for-the-badge&labelColor=ff2bd6&color=0b0914&logo=github&logoColor=ff2bd6)](https://github.com/HARIHARANMURALIREC)
+![Status](https://img.shields.io/badge/STATUS-OPEN_TO_GENAI_%2F_LLM_INTERNSHIPS-0b0914?style=for-the-badge&labelColor=39ff88&color=0b0914)
+
+<br/>
+
+<img src="assets/discord.svg" width="100%" alt="Discord-style chat window introducing Hariharan Murali and AxionOS"/>
 
 </div>
 
 <br/>
 
-## ⚡ About
+## `# about`
 
 ```yaml
 name:       Hariharan Murali
@@ -28,15 +32,116 @@ focus:      GenAI / LLM applications · RAG pipelines · Computer Vision · Full
 mindset:    zero-cost architectures, fully local AI stacks, ship-it-and-verify-it engineering
 ```
 
-I build things end-to-end — from a Rust-powered remote desktop app to a **hand-rolled 64-bit operating system with its own TCP/IP stack and GUI compositor**. My work spans the full range from polished, production-facing SaaS tools to low-level systems programming, with AI woven through most of it: local LLMs, RAG, computer vision, and fine-tuning, not just API wrappers.
+> **hariharan** `DEV`
+> I build things end-to-end, from a Rust-powered remote desktop app to a **hand-rolled 64-bit operating system with its own TCP/IP stack and GUI compositor**. My work spans polished, production-facing SaaS tools and low-level systems programming, with AI woven through most of it: local LLMs, RAG, computer vision and fine-tuning. Not just API wrappers.
 
 <br/>
 
-## 🧬 Tech Arsenal
+## `# builds`
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ![axionos](https://img.shields.io/badge/%23-axionos-0b0914?style=flat-square&labelColor=19f0ff&color=0b0914) AxionOS
+**A 64-bit hobby operating system, built from bare metal up**
+
+Custom bootloader integration, memory management (PMM/VMM), preemptive scheduler, ring-3 user mode, syscall ABI, FAT32 filesystem, ELF loader, an interactive shell, a native SDK, a full networking stack (Ethernet → ARP → IPv4 → TCP/UDP → DNS → HTTP), and a windowed GUI with a damage-rect compositor, file manager, and calculator.
+
+Verified with real traffic: live HTTP fetches over the wire, real TCP handshakes against an external echo server, and pcap-confirmed packet flow. Not simulated.
+
+`x86-64` `C` `NASM` `Limine` `QEMU`
+
+</td>
+<td width="50%" valign="top">
+
+### ![meetra](https://img.shields.io/badge/%23-meetra-0b0914?style=flat-square&labelColor=ff2bd6&color=0b0914) Meetra
+**Zero-cost, Google Meet-style video conferencing web app**
+
+Room creation and join by code, host-approval waiting rooms, and a live video grid powered by LiveKit's WebRTC/SFU routing. Full marketing and auth UI with Google OAuth, glassmorphism design, and route transition animations.
+
+`React` `Vite` `TypeScript` `LiveKit` `Supabase` `Tailwind` `Zustand`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ![resume-engine](https://img.shields.io/badge/%23-resume--engine-0b0914?style=flat-square&labelColor=fcee0a&color=0b0914) AI Resume Intelligence Engine
+**Full-stack resume parsing and candidate search platform**
+
+A multi-stage extraction pipeline (PyMuPDF, pdfplumber, OCR for scans, python-docx for Word files) feeding a locally hosted LLM for structured data extraction, with parsed profiles stored in PostgreSQL for searchable candidate records.
+
+`React` `FastAPI` `PostgreSQL` `Ollama (Mistral)`
+
+</td>
+<td width="50%" valign="top">
+
+### ![echodx](https://img.shields.io/badge/%23-echodx-0b0914?style=flat-square&labelColor=39ff88&color=0b0914) EchoDx
+**AI-based pure tone audiometry diagnosis predictor**
+
+Built for the SmartAbility 2026 Innovation Challenge. Live ASHA-convention audiograms, rule-based hearing-loss classification, RPwD Act 2016 disability-percentage reasoning, bilateral asymmetry flags, and AI-generated clinical reports via a local LLM with English/Tamil support.
+
+`React` `Node.js/Express` `PostgreSQL` `Ollama` `Recharts`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ![voxshift](https://img.shields.io/badge/%23-voxshift-0b0914?style=flat-square&labelColor=ff2bd6&color=0b0914) VoxShift
+**Video localization and live subtitle platform, 100% local AI stack**
+
+Sub-60-second on-device processing targeting a MacBook Air M4: `faster-whisper` for transcription, `Ollama` for translation, and `Coqui XTTS-v2` for voice synthesis. Zero cloud API dependency.
+
+`faster-whisper` `Ollama` `Coqui XTTS-v2` `FFmpeg`
+
+</td>
+<td width="50%" valign="top">
+
+### ![vtol-anpr](https://img.shields.io/badge/%23-vtol--anpr-0b0914?style=flat-square&labelColor=ff7a1a&color=0b0914) VTOL Live Streaming & Traffic Violation Detection
+**Real-time aerial video pipeline with automatic number-plate recognition**
+
+Built during an aerospace internship: a GStreamer streaming pipeline from a VTOL platform, with YOLO-powered traffic violation and license-plate detection.
+
+`GStreamer` `YOLO` `Computer Vision`
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+<sub><b># also-shipped</b> · an industrial AI barcode scanner with a companion mobile app · a race-condition-safe final-year project allotment system with atomic PostgreSQL RPC seat locking · metallurgy analysis software for industrial material visualization</sub>
+</div>
+
+<br/>
+
+<details>
+<summary><b>$ boot axionos</b> &nbsp;<sub>(illustrative boot stages)</sub></summary>
+
+```text
+[  OK  ] limine: bootloader handoff complete
+[  OK  ] pmm: physical memory manager online
+[  OK  ] vmm: paging and virtual memory online
+[  OK  ] sched: preemptive scheduler running
+[  OK  ] user: ring-3 user mode enabled
+[  OK  ] syscall: ABI registered
+[  OK  ] fat32: filesystem mounted
+[  OK  ] elf: loader ready
+[  OK  ] net: eth > arp > ipv4 > tcp/udp > dns > http
+[  OK  ] gui: damage-rect compositor started
+[  OK  ] shell: ready >_
+```
+
+</details>
+
+<br/>
+
+## `# stack`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,ts,js,nodejs,express,python,fastapi,dotnet,cpp,c,flutter,reactnative,postgres,mysql,mongodb,supabase,git,github,figma&amp;theme=dark&amp;perline=10" />
+<img src="https://skillicons.dev/icons?i=react,ts,js,nodejs,express,python,fastapi,dotnet,cpp,c,rust,flutter,reactnative,postgres,mysql,mongodb,supabase,git,github,figma&theme=dark&perline=10" />
 
 <br/><br/>
 
@@ -56,109 +161,32 @@ I build things end-to-end — from a Rust-powered remote desktop app to a **hand
 
 <br/>
 
-## 🚀 Featured Builds
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🖥️ AxionOS
-**A 64-bit hobby operating system, built from bare metal up**
-
-Custom bootloader integration, memory management (PMM/VMM), preemptive scheduler, ring-3 user mode, syscall ABI, FAT32 filesystem, ELF loader, an interactive shell, a native SDK, a full networking stack (Ethernet → ARP → IPv4 → TCP/UDP → DNS → HTTP), and a windowed GUI with a damage-rect compositor, file manager, and calculator.
-
-Verified with real traffic: live HTTP fetches over the wire, real TCP handshakes against an external echo server, and pcap-confirmed packet flow — not simulated.
-
-`x86-64` `C` `NASM` `Limine` `QEMU`
-
-</td>
-<td width="50%" valign="top">
-
-### 🎥 Meetra
-**Zero-cost, Google Meet–style video conferencing web app**
-
-Room creation/join by code, host-approval waiting rooms, and a live video grid powered by LiveKit's WebRTC/SFU routing. Full marketing + auth UI with Google OAuth, glassmorphism design, and route transition animations.
-
-`React` `Vite` `TypeScript` `LiveKit` `Supabase` `Tailwind` `Zustand`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 AI Resume Intelligence Engine
-**Full-stack resume parsing & candidate search platform**
-
-A multi-stage extraction pipeline (PyMuPDF, pdfplumber, OCR for scans, python-docx for Word files) feeding a locally-hosted LLM for structured data extraction, with parsed profiles stored in PostgreSQL for searchable candidate records.
-
-`React` `FastAPI` `PostgreSQL` `Ollama (Mistral)`
-
-</td>
-<td width="50%" valign="top">
-
-### 🩺 EchoDx
-**AI-based pure tone audiometry diagnosis predictor**
-
-Built for the SmartAbility 2026 Innovation Challenge. Live ASHA-convention audiograms, rule-based hearing-loss classification, RPwD Act 2016 disability-percentage reasoning, bilateral asymmetry flags, and AI-generated clinical reports via a local LLM with English/Tamil support.
-
-`React` `Node.js/Express` `PostgreSQL` `Ollama` `Recharts`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🌐 VoxShift
-**Video localization & live subtitle platform — 100% local AI stack**
-
-Sub-60-second on-device processing targeting a MacBook Air M4: `faster-whisper` for transcription, `Ollama` for translation, and `Coqui XTTS-v2` for voice synthesis — zero cloud API dependency.
-
-`faster-whisper` `Ollama` `Coqui XTTS-v2` `FFmpeg`
-
-</td>
-<td width="50%" valign="top">
-
-### 🛰️ VTOL Live Streaming & Traffic Violation Detection
-**Real-time aerial video pipeline with automatic number-plate recognition**
-
-Built during an aerospace internship: a GStreamer streaming pipeline from a VTOL platform, with YOLO-powered traffic violation and license-plate detection.
-
-`GStreamer` `YOLO` `Computer Vision`
-
-</td>
-</tr>
-</table>
+## `# stats`
 
 <div align="center">
-<sub>Also shipped: an industrial AI barcode scanner with a companion mobile app, a race-condition-safe final-year project allotment system with atomic PostgreSQL RPC seat locking, and metallurgy analysis software for industrial material visualization.</sub>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=HARIHARANMURALIREC&show_icons=true&hide_border=true&bg_color=0b0914&title_color=19f0ff&icon_color=ff2bd6&text_color=e9e7f7&ring_color=19f0ff" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HARIHARANMURALIREC&layout=compact&hide_border=true&bg_color=0b0914&title_color=19f0ff&text_color=e9e7f7" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=HARIHARANMURALIREC&hide_border=true&background=0b0914&ring=19f0ff&fire=ff2bd6&currStreakNum=e9e7f7&currStreakLabel=19f0ff&sideNums=e9e7f7&sideLabels=9792b6&dates=9792b6&stroke=251f3d" />
+
 </div>
 
 <br/>
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=HARIHARANMURALIREC&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=38BDF8&amp;icon_color=38BDF8" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HARIHARANMURALIREC&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=38BDF8" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=HARIHARANMURALIREC&amp;theme=tokyonight&amp;hide_border=true&amp;background=0d1117&amp;ring=38BDF8&amp;fire=38BDF8" />
-
-</div>
-
-<br/>
+## `# contact`
 
 <div align="center">
 
 ### 📡 Let's build something
 
-[![Portfolio](https://img.shields.io/badge/-hariharanmurali.com-38BDF8?style=for-the-badge&logo=todoist&logoColor=white)](https://hariharanmurali.com)
-[![Email](https://img.shields.io/badge/-Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](#)
+[![Portfolio](https://img.shields.io/badge/-hariharanmurali.com-19f0ff?style=for-the-badge&logo=todoist&logoColor=0b0914)](https://hariharanmurali.com)
+[![Email](https://img.shields.io/badge/-Email%20Me-ff2bd6?style=for-the-badge&logo=gmail&logoColor=0b0914)](#)
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;height=100&amp;color=gradient&amp;customColorList=6,11,20&amp;section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=6,11,20&section=footer" width="100%"/>
 
 </div>
