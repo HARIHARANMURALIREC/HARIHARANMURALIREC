@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Hariharan Murali, Full Stack Developer and AI Engineer"/>
+<img src="banner.svg" width="100%" alt="Hariharan Murali, Full Stack Developer and AI Engineer"/>
 
 <br/>
 
@@ -14,7 +14,7 @@
 
 <br/>
 
-<img src="assets/discord.svg" width="100%" alt="Discord-style chat window introducing Hariharan Murali and AxionOS"/>
+<img src="discord.svg" width="100%" alt="Discord-style chat window introducing Hariharan Murali and AxionOS"/>
 
 </div>
 
