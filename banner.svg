@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="Hariharan Murali, Full Stack Developer and AI Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0914"/>
+      <stop offset="1" stop-color="#1b0f36"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#19f0ff" stroke-opacity=".09"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity=".05"/>
+    </pattern>
+    <linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#19f0ff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#19f0ff" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#19f0ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text{font-family:'Courier New',ui-monospace,Menlo,Consolas,monospace;font-weight:700}
+    .name{font-size:64px;letter-spacing:3px;fill:#e9e7f7}
+    .m{fill:#ff2bd6;opacity:0;animation:gm 4s infinite steps(1)}
+    .c{fill:#19f0ff;opacity:0;animation:gc 4s infinite steps(1)}
+    @keyframes gm{0%,87%{transform:translate(0,0);opacity:0}88%{transform:translate(-7px,-2px);opacity:.9}90%{transform:translate(5px,3px);opacity:.9}92%{transform:translate(-3px,1px);opacity:.9}94%,100%{transform:translate(0,0);opacity:0}}
+    @keyframes gc{0%,88%{transform:translate(0,0);opacity:0}89%{transform:translate(7px,2px);opacity:.9}91%{transform:translate(-5px,-3px);opacity:.9}93%{transform:translate(3px,-1px);opacity:.9}95%,100%{transform:translate(0,0);opacity:0}}
+    .sweep{animation:sw 3.6s linear infinite}
+    @keyframes sw{from{transform:translateY(-70px)}to{transform:translateY(270px)}}
+    .dot{fill:#39ff88;animation:pl 2s infinite}
+    @keyframes pl{50%{opacity:.3}}
+    .caret{fill:#19f0ff;animation:bl 1s steps(1) infinite}
+    @keyframes bl{50%{opacity:0}}
+  </style>
+
+  <rect width="1000" height="260" fill="url(#bg)"/>
+  <rect width="1000" height="260" fill="url(#grid)"/>
+  <rect class="sweep" width="1000" height="70" fill="url(#sweep)"/>
+
+  <path d="M24 70V24H70" fill="none" stroke="#19f0ff" stroke-width="2"/>
+  <path d="M976 190V236H930" fill="none" stroke="#ff2bd6" stroke-width="2"/>
+
+  <circle class="dot" cx="64" cy="58" r="5"/>
+  <text x="80" y="63" font-size="14" fill="#39ff88" letter-spacing="3">SYSTEM ONLINE // HARIHARAN.NET</text>
+
+  <g>
+    <text class="name" x="60" y="140">HARIHARAN MURALI</text>
+    <text class="name m" x="60" y="140">HARIHARAN MURALI</text>
+    <text class="name c" x="60" y="140">HARIHARAN MURALI</text>
+  </g>
+
+  <text x="62" y="186" font-size="22" fill="#19f0ff" letter-spacing="2">FULL STACK DEVELOPER &amp; AI ENGINEER</text>
+  <rect class="caret" x="560" y="168" width="12" height="22"/>
+
+  <text x="62" y="224" font-size="14" fill="#9792b6" letter-spacing="1">GenAI / LLM  //  RAG  //  Computer Vision  //  64-bit OS from scratch</text>
+  <text x="938" y="224" font-size="13" fill="#ff2bd6" text-anchor="end" letter-spacing="2">CHENNAI, IN</text>
+
+  <rect width="1000" height="260" fill="url(#scan)"/>
+  <rect x=".5" y=".5" width="999" height="259" fill="none" stroke="#251f3d"/>
+</svg>

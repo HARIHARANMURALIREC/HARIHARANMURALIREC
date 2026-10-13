@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440" role="img" aria-label="Discord-style chat window introducing Hariharan Murali and AxionOS">
+  <style>
+    text{font-family:'Courier New',ui-monospace,Menlo,Consolas,monospace}
+    .b{font-weight:700}
+    .dim{fill:#9792b6}
+    .faint{fill:#6a6586}
+    .fg{fill:#e9e7f7}
+    @keyframes s1{0%,3%{opacity:0;transform:translateY(10px)}7%,90%{opacity:1;transform:translateY(0)}96%,100%{opacity:0;transform:translateY(0)}}
+    @keyframes s2{0%,22%{opacity:0;transform:translateY(10px)}26%,90%{opacity:1;transform:translateY(0)}96%,100%{opacity:0;transform:translateY(0)}}
+    @keyframes s3{0%,40%{opacity:0;transform:translateY(10px)}44%,90%{opacity:1;transform:translateY(0)}96%,100%{opacity:0;transform:translateY(0)}}
+    @keyframes s4{0%,56%{opacity:0;transform:translateY(10px)}60%,90%{opacity:1;transform:translateY(0)}96%,100%{opacity:0;transform:translateY(0)}}
+    .g1{animation:s1 12s infinite}
+    .g2{animation:s2 12s infinite}
+    .g3{animation:s3 12s infinite}
+    .g4{animation:s4 12s infinite}
+    @keyframes bounce{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-4px)}}
+    .d1{animation:bounce 1.1s infinite}
+    .d2{animation:bounce 1.1s .15s infinite}
+    .d3{animation:bounce 1.1s .3s infinite}
+    @keyframes pl{50%{opacity:.35}}
+    .live{animation:pl 2s infinite}
+    @keyframes bl{50%{opacity:0}}
+    .caret{animation:bl 1s steps(1) infinite}
+  </style>
+  <defs>
+    <clipPath id="win"><rect width="1000" height="440"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#win)">
+    <rect width="1000" height="440" fill="#06050c"/>
+
+    <!-- server rail -->
+    <rect width="64" height="440" fill="#06050c"/>
+    <rect x="63" width="1" height="440" fill="#251f3d"/>
+    <rect x="0" y="22" width="4" height="36" rx="2" fill="#e9e7f7"/>
+    <rect x="16" y="20" width="32" height="40" rx="12" fill="#19f0ff"/>
+    <text x="32" y="46" text-anchor="middle" font-size="14" class="b" fill="#06050c">HM</text>
+    <circle cx="32" cy="92" r="16" fill="#171229"/><text x="32" y="97" text-anchor="middle" font-size="12" class="b fg">AX</text>
+    <circle cx="32" cy="136" r="16" fill="#171229"/><text x="32" y="141" text-anchor="middle" font-size="12" class="b fg">MT</text>
+    <circle cx="32" cy="180" r="16" fill="#171229"/><text x="32" y="185" text-anchor="middle" font-size="12" class="b fg">RE</text>
+    <circle cx="32" cy="224" r="16" fill="#171229"/><text x="32" y="229" text-anchor="middle" font-size="12" class="b fg">Dx</text>
+    <circle cx="32" cy="268" r="16" fill="#171229"/><text x="32" y="273" text-anchor="middle" font-size="12" class="b fg">VX</text>
+
+    <!-- channel list -->
+    <rect x="64" width="216" height="440" fill="#0b0914"/>
+    <rect x="279" width="1" height="440" fill="#251f3d"/>
+    <text x="80" y="31" font-size="14" class="b fg" letter-spacing="1.5">HARIHARAN//NET</text>
+    <rect x="64" y="47" width="216" height="1" fill="#251f3d"/>
+
+    <text x="76" y="76" font-size="10" class="faint b" letter-spacing="2">INFO</text>
+    <rect x="72" y="86" width="200" height="26" rx="4" fill="#171229"/>
+    <text x="84" y="104" font-size="14" fill="#19f0ff" class="b"># about</text>
+
+    <text x="76" y="138" font-size="10" class="faint b" letter-spacing="2">BUILDS</text>
+    <text x="84" y="162" font-size="14" class="dim"># axionos</text>
+    <text x="84" y="186" font-size="14" class="dim"># meetra</text>
+    <text x="84" y="210" font-size="14" class="dim"># resume-engine</text>
+    <text x="84" y="234" font-size="14" class="dim"># echodx</text>
+    <text x="84" y="258" font-size="14" class="dim"># voxshift</text>
+    <text x="84" y="282" font-size="14" class="dim"># vtol-anpr</text>
+
+    <text x="76" y="314" font-size="10" class="faint b" letter-spacing="2">SYSTEM</text>
+    <text x="84" y="338" font-size="14" class="dim"># stack</text>
+    <text x="84" y="362" font-size="14" class="dim"># contact</text>
+    <circle class="live" cx="258" cy="357" r="4" fill="#39ff88"/>
+
+    <rect x="64" y="388" width="216" height="52" fill="#080611"/>
+    <polygon points="94,396 108,396 115,412 108,428 94,428 87,412" fill="#19f0ff"/>
+    <text x="101" y="417" text-anchor="middle" font-size="10" class="b" fill="#06050c">HM</text>
+    <circle cx="116" cy="426" r="5" fill="#39ff88" stroke="#080611" stroke-width="2"/>
+    <text x="128" y="408" font-size="13" class="b fg">hariharan</text>
+    <text x="128" y="424" font-size="10" class="dim">Chennai // online</text>
+
+    <!-- header -->
+    <rect x="280" width="720" height="48" fill="#0a0813"/>
+    <rect x="280" y="47" width="720" height="1" fill="#251f3d"/>
+    <text x="300" y="30" font-size="16" class="b fg"><tspan class="faint">#</tspan> about</text>
+    <text x="380" y="30" font-size="12" class="dim">Full Stack Developer &amp; AI Engineer. Chennai, India.</text>
+
+    <!-- message 1 -->
+    <g class="g1">
+      <polygon points="320,66 338,66 347,86 338,106 320,106 311,86" fill="#19f0ff"/>
+      <text x="329" y="92" text-anchor="middle" font-size="13" class="b" fill="#06050c">HM</text>
+      <text x="364" y="78" font-size="15" class="b" fill="#19f0ff">hariharan</text>
+      <rect x="440" y="66" width="32" height="15" fill="#19f0ff"/>
+      <text x="456" y="77" text-anchor="middle" font-size="10" class="b" fill="#06050c">DEV</text>
+      <text x="484" y="78" font-size="11" class="faint">Today</text>
+      <text x="364" y="100" font-size="13" class="fg">I build things end-to-end: from a Rust-powered remote desktop app</text>
+      <text x="364" y="118" font-size="13" class="fg">to a hand-rolled 64-bit OS with its own TCP/IP stack and</text>
+      <text x="364" y="136" font-size="13" class="fg">GUI compositor.</text>
+    </g>
+
+    <!-- message 2: user command -->
+    <g class="g2">
+      <polygon points="320,160 338,160 347,176 338,192 320,192 311,176" fill="#6a6586"/>
+      <text x="329" y="181" text-anchor="middle" font-size="10" class="b" fill="#06050c">YOU</text>
+      <text x="364" y="172" font-size="15" class="b dim">guest</text>
+      <text x="364" y="192" font-size="13" class="fg">/projects</text>
+    </g>
+
+    <!-- message 3: bot embed -->
+    <g class="g3">
+      <polygon points="320,214 338,214 347,230 338,246 320,246 311,230" fill="#fcee0a"/>
+      <text x="329" y="235" text-anchor="middle" font-size="12" class="b" fill="#06050c">AX</text>
+      <text x="364" y="226" font-size="15" class="b" fill="#fcee0a">AXION-BOT</text>
+      <rect x="450" y="214" width="32" height="15" fill="#fcee0a"/>
+      <text x="466" y="225" text-anchor="middle" font-size="10" class="b" fill="#06050c">BOT</text>
+      <rect x="364" y="238" width="560" height="112" fill="#100d1d" stroke="#251f3d"/>
+      <rect x="364" y="238" width="3" height="112" fill="#19f0ff"/>
+      <path d="M910 238H924V252" fill="none" stroke="#19f0ff" stroke-width="2"/>
+      <text x="382" y="258" font-size="10" class="b" fill="#19f0ff" letter-spacing="2">SYSTEMS / C</text>
+      <text x="382" y="282" font-size="20" class="b fg">AxionOS</text>
+      <text x="382" y="302" font-size="12" class="dim">A 64-bit hobby OS, built from bare metal up.</text>
+      <text x="382" y="320" font-size="12" class="dim">TCP/IP stack, FAT32, ELF loader, windowed GUI compositor.</text>
+      <rect x="382" y="328" width="60" height="16" fill="#19f0ff" fill-opacity=".1" stroke="#19f0ff" stroke-opacity=".5"/>
+      <text x="412" y="340" text-anchor="middle" font-size="10" class="fg">x86-64</text>
+      <rect x="450" y="328" width="28" height="16" fill="#19f0ff" fill-opacity=".1" stroke="#19f0ff" stroke-opacity=".5"/>
+      <text x="464" y="340" text-anchor="middle" font-size="10" class="fg">C</text>
+      <rect x="486" y="328" width="46" height="16" fill="#19f0ff" fill-opacity=".1" stroke="#19f0ff" stroke-opacity=".5"/>
+      <text x="509" y="340" text-anchor="middle" font-size="10" class="fg">NASM</text>
+      <rect x="540" y="328" width="56" height="16" fill="#19f0ff" fill-opacity=".1" stroke="#19f0ff" stroke-opacity=".5"/>
+      <text x="568" y="340" text-anchor="middle" font-size="10" class="fg">Limine</text>
+      <rect x="604" y="328" width="50" height="16" fill="#19f0ff" fill-opacity=".1" stroke="#19f0ff" stroke-opacity=".5"/>
+      <text x="629" y="340" text-anchor="middle" font-size="10" class="fg">QEMU</text>
+    </g>
+
+    <!-- typing + composer -->
+    <g class="g4">
+      <circle class="d1" cx="304" cy="371" r="2.5" fill="#19f0ff"/>
+      <circle class="d2" cx="313" cy="371" r="2.5" fill="#19f0ff"/>
+      <circle class="d3" cx="322" cy="371" r="2.5" fill="#19f0ff"/>
+      <text x="334" y="375" font-size="11" class="dim">hariharan is typing</text>
+    </g>
+    <rect x="296" y="384" width="688" height="40" fill="#171229" stroke="#251f3d"/>
+    <text x="312" y="409" font-size="15" class="b" fill="#19f0ff">/</text>
+    <text x="330" y="409" font-size="13" class="faint">Message #about. Try /hire</text>
+    <rect class="caret" x="316" y="396" width="2" height="16" fill="#19f0ff"/>
+  </g>
+  <rect x=".5" y=".5" width="999" height="439" fill="none" stroke="#251f3d"/>
+</svg>
