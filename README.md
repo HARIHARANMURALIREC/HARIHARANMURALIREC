@@ -180,7 +180,9 @@ Built during an aerospace internship: a GStreamer streaming pipeline from a VTOL
 
 <div align="center">
 
-### 📡 Let's build something
+<img src="globe.svg" width="100%" alt="Rotating 3D globe with a marker on Chennai. Let's build something."/>
+
+<br/>
 
 [![Portfolio](https://img.shields.io/badge/-hariharanmurali.com-19f0ff?style=for-the-badge&logo=todoist&logoColor=0b0914)](https://hariharanmurali.com)
 [![Email](https://img.shields.io/badge/-Email%20Me-ff2bd6?style=for-the-badge&logo=gmail&logoColor=0b0914)](#)
